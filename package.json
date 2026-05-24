@@ -1,0 +1,14 @@
+{
+  "name": "royal-poker-v2",
+  "version": "2.0.0",
+  "description": "Royal Poker — Cyberpunk Online Texas Hold'em",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.22.2",
+    "socket.io": "^4.7.2"
+  }
+}
